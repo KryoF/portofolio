@@ -1,0 +1,28 @@
+.NavBar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    letter-spacing: 3px;
+}
+
+.navList {
+    background-color: #000;
+    max-width: 80%;
+    padding: 1rem 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}  
+
+.navItem {
+    list-style: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
