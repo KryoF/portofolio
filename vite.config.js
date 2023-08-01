@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   alias: {
     '@components': './src/components',
-  }
+  },
+  base: '/portofolio/',
 })
