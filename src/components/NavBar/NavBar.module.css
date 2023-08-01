@@ -6,18 +6,18 @@
     left: 0;
     width: 100%;
     z-index: 1;
-    letter-spacing: 3px;
+    font-weight: bold;
 }
 
 .navList {
-    background-color: #000;
-    max-width: 80%;
+    background-color: #00010b;
+    width: 45rem;
     padding: 1rem 2.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 5rem;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(136, 0, 0, 1);
 }  
 
 .navItem {
@@ -25,4 +25,8 @@
     font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+}
+
+.navItem a:hover {
+    color: #880000;
 }

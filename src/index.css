@@ -1,8 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+@font-face {
+    font-family: MoonStone;
+    src: url(/src/assets/fonts/MoonStone.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: n27;
+    src: url(/src/assets/fonts/n27.ttf) format('truetype');
+}
+ 
+@font-face {
+    font-family: OpenSans;
+    src: url(/src/assets/fonts/OpenSans.ttf) format('truetype');
+}
 
 :root {
-    font-family: 'Space Grotesk', sans-serif;
-    background-color: #000;
+    font-family: 'OpenSans', sans-serif;
+    background-color: #00010b;
     color: #fff;
 }
 
@@ -10,7 +23,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    user-select: none;
 }
 
 section {
@@ -18,21 +30,26 @@ section {
 }
 
 h1 {
-    font-size: 7.5rem;
-    font-weight: 700;
+    font-family: 'MoonStone', sans-serif;
+    font-size: 16rem;
+    font-weight: 300;
+    line-height: 1;
     margin: 0;
-    letter-spacing: 3PX;
+    letter-spacing: 3px;
 }
 
-h3 {
-    font-size: 2rem;
-    font-weight: 400;
+h2 {
+    font-family: 'n27', sans-serif;
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
     margin: 0;
 }
 
 a {
     text-decoration: none;
     color: #fff;
+    font-weight: 500;
 }
 
 /* width */
